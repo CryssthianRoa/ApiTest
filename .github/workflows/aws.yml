@@ -45,7 +45,7 @@ permissions:
 
 jobs:
   use-build:
-    uses: /CryssthianRoa/ApiTest/.github/workflows/dotnetbuild.yml@main
+    uses: CryssthianRoa/ApiTest/.github/workflows/dotnetbuild.yml@main
   deploy:
     name: Deploy
     needs: use-build
